@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Updater -->
+    <string name="available_new_version">Nuova Versione Disponibile</string>
+    <string name="update_now">Aggiorna Ora</string>
+    <string name="update">Aggiorna</string>
+    <string name="later">Più Tardi</string>
+
+    <!-- Video category -->
+    <string name="cinema">Cinema</string>
+    <string name="anime">Anime</string>
+    <string name="favorites">Preferiti</string>
+
+    <!-- Video subcategory -->
+    <string name="movies">Film</string>
+    <string name="tv_shows">Serie TV</string>
+
+    <!-- Genre -->
+    <string name="genre">Genere</string>
+    <string name="popular">I Più Visti</string>
+    <string name="action">Azione</string>
+    <string name="adventure">Avventura</string>
+    <string name="animation">Animazione</string>
+    <string name="biography">Biografia</string>
+    <string name="comedy">Commedia</string>
+    <string name="crime">Crimine</string>
+    <string name="documentary">Documentaristico</string>
+    <string name="drama">Drammatico</string>
+    <string name="family">Per Tutta la Famiglia</string>
+    <string name="fantasy">Fantasy</string>
+    <string name="film_noir">Noir</string>
+    <string name="history">Storico</string>
+    <string name="horror">Horror</string>
+    <string name="music">Musica</string>
+    <string name="musical">Musical</string>
+    <string name="mystery">Mistero</string>
+    <string name="romance">Romantico</string>
+    <string name="sci_fi">Fantascienza</string>
+    <string name="short_">Cortometraggi</string>
+    <string name="sport">Sportivo</string>
+    <string name="thriller">Thriller</string>
+    <string name="war">Guerra</string>
+    <string name="western">Western</string>
+
+    <!-- Sorted by-->
+    <string name="sort_by">Ordina Per</string>
+    <string name="popularity">Popolarità</string>
+    <string name="date_added">Data di aggiunta</string>
+    <string name="year">Anno</string>
+
+    <!-- Subtitles -->
+    <string name="default_subtitle">Sottotitoli Predefiniti</string>
+    <string name="font_size">Dimensione Carattere</string>
+    <string name="extra_small">Molto Piccolo</string>
+    <string name="small">Piccolo</string>
+    <string name="normal">Normale</string>
+    <string name="large">Grande</string>
+    <string name="extra_large">Molto Grande</string>
+    <string name="font_color">Colore Carattere</string>
+    <string name="white">Bianco</string>
+    <string name="yellow">Giallo</string>
+
+    <!-- Theme -->
+    <string name="theme">Tema</string>
+    <string name="classic">Classico</string>
+
+    <!-- Favorites -->
+    <string name="favorites_empty">Nessun Preferito</string>
+    <string name="add_to_favorites">Aggiungi ai Preferiti</string>
+    <string name="remove_from_favorites">Rimuovi dai Preferiti</string>
+
+    <!-- Video -->
+    <string name="season">Stagione</string>
+    <string name="episode">Episodio</string>
+    <string name="actors">Attori</string>
+    <string name="trailer">Trailer</string>
+    <string name="torrents">Torrent</string>
+    <string name="quality">Qualità</string>
+    <string name="size">Dimensione</string>
+    <string name="seeds">Seed</string>
+    <string name="peers">Peer</string>
+    <string name="watch">Guarda</string>
+    <string name="watch_it_now">Guardalo Ora</string>
+
+    <!-- Downloads -->
+    <string name="downloads">Download</string>
+    <string name="download">Scarica</string>
+    <string name="open">Apri</string>
+    <string name="resume_all">Riprendi Tutti</string>
+    <string name="pause_all">Metti tutti in Pausa</string>
+    <string name="remove_all">Rimuovi Tutti</string>
+    <string name="resume">Riprendi</string>
+    <string name="pause">Pausa</string>
+    <string name="remove">Rimuovi</string>
+
+    <!-- Settings -->
+    <string name="settings">Opzioni</string>
+    <string name="interface_">Interfaccia</string>
+    <string name="language">Linguaggio</string>
+    <string name="start_page">Pagina Iniziale</string>
+    <string name="player">Player</string>
+    <string name="use_only_wifi">Usa Solo con Connessione Wi-Fi</string>
+    <string name="connections_limit">Connections limit</string>
+    <string name="maximum_download_speed">Massima Velocità di Download</string>
+    <string name="maximum_upload_speed">Massima Velocità di Upload</string>
+    <string name="cache_folder">Cartella di Cache</string>
+    <string name="clear_cache_folder_on_exit">Ripulisci la Cartella di Cache quando Esci</string>
+    <string name="visit_site">Visita il Sito</string>
+    <string name="visit_forum">Visita il Forum</string>
+    <string name="version">Versione</string>
+    <string name="about">Informazioni</string>
+
+    <!-- Vpn -->
+    <string name="vpn_disabled">VPN Disattivata!</string>
+    <string name="use_vpn_to_avoid_risks">Per evitare inutili rischi si consiglia di usare la VPN.</string>
+    <!--<string name="turn_on_vpn">Abilita VPN</string>-->
+
+    <!-- Other -->
+    <string name="retry">Riprova</string>
+    <string name="enabled">Abilitato</string>
+    <string name="disabled">Disabilitato</string>
+    <string name="confirm">Conferma</string>
+    <string name="unlimited">Illimitato</string>
+    <string name="no_connection">Nessuna Connessione</string>
+    <string name="no_result_found">Nessun Risultato Trovato</string>
+    <string name="connect">Connect</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="continuez">Continua</string>
+
+    <string name="exit_msg">Tocca Nuovamente \"Indietro\" per Uscire</string>
+    <string name="error_metadata">Errore durante il Caricamento dei dati, si prega di riprovare</string>
+    <string name="search">Cerca</string>
+    <string name="no_write_access">Impossibile scrivere in questa cartella. Nessun accesso di scrittura presente</string>
+    <string name="no_free_space">Spazio Libero su Disco Esaurito</string>
+    <string name="cache_folder_not_selected">Nessuna Cartella di Cache Selezionata</string>
+    <string name="downloads_remove_msg">Sei Sicuro?</string>
+    <string name="finished">Terminato</string>
+    <string name="paused">In Pausa</string>
+    <string name="checking_data">Controllo Dati</string>
+    <string name="disable_wifi_message">Disabilitare \"Usa Solo con Connessione Wi-Fi\" tra le opzioni o attivare una connessione Wi-Fi</string>
+    <string name="device_storage">Device\'s Storage</string>
+    <string name="sdcard_storage">SD\'s Storage</string>
+
+</resources>

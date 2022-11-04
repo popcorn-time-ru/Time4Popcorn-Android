@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- video grid -->
+    <dimen name="video_grid_width">160dp</dimen>
+    <dimen name="video_grid_height">240dp</dimen>
+</resources>

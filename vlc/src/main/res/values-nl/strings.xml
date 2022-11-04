@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hardware_acceleration">Hardwareversnelling</string>
+    <string name="hardware_acceleration_automatic">Automatisch</string>
+    <string name="hardware_acceleration_disabled">Uitgeschakeld</string>
+    <string name="hardware_acceleration_decoding">Decodeerversnelling</string>
+    <string name="hardware_acceleration_full">Volledige versnelling</string>
+
+    <string name="surface_best_fit">Best passend</string>
+    <string name="surface_fit_horizontal">Horizontaal passend</string>
+    <string name="surface_fit_vertical">Verticaal passend</string>
+    <string name="surface_fill">Schermvullend</string>
+    <string name="surface_original">Centreren</string>
+
+</resources>

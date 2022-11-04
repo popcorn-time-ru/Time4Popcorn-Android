@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Updater -->
+    <string name="available_new_version">Kullanılabilir yeni sürüm</string>
+    <string name="update_now">Şimdi Güncelle!</string>
+    <string name="update">Güncelle</string>
+    <string name="later">Sonra</string>
+
+    <!-- Video category -->
+    <string name="cinema">Sinema</string>
+    <string name="anime">Anime</string>
+    <string name="favorites">Favoriler</string>
+
+    <!-- Video subcategory -->
+    <string name="movies">Filmler</string>
+    <string name="tv_shows">TV Şov</string>
+
+    <!-- Genre -->
+    <string name="genre">Tür</string>
+    <string name="popular">Popüler</string>
+    <string name="action">Aksiyon</string>
+    <string name="adventure">Macera</string>
+    <string name="animation">Animasyon</string>
+    <string name="biography">Biyografi</string>
+    <string name="comedy">Komedi</string>
+    <string name="crime">Suç</string>
+    <string name="documentary">Belgesel</string>
+    <string name="drama">Dram</string>
+    <string name="family">Aile</string>
+    <string name="fantasy">Fantezi</string>
+    <string name="film_noir">Kara Film</string>
+    <string name="history">Tarih</string>
+    <string name="horror">Korku</string>
+    <string name="music">Müzik</string>
+    <string name="musical">Müzikal</string>
+    <string name="mystery">Gizem</string>
+    <string name="romance">Romantik</string>
+    <string name="sci_fi">Bilim-Kurgu</string>
+    <string name="short_">Kısa Film</string>
+    <string name="sport">Spor</string>
+    <string name="thriller">Gerilim</string>
+    <string name="war">Savaş</string>
+    <string name="western">Batı</string>
+
+    <!-- Sorted by-->
+    <string name="sort_by">Sıralama Ölçütü</string>
+    <string name="popularity">Popülerlik</string>
+    <string name="date_added">Ekleme Tarihi</string>
+    <string name="year">Yıl</string>
+
+    <!-- Subtitles -->
+    <string name="default_subtitle">Varsayılan altyazı</string>
+    <string name="font_size">Yazı Boyutu</string>
+    <string name="extra_small">Çok Küçük</string>
+    <string name="small">Küçük</string>
+    <string name="normal">Normal</string>
+    <string name="large">Büyük</string>
+    <string name="extra_large">Çok Büyük</string>
+    <string name="font_color">Yazı Rengi</string>
+    <string name="white">Beyaz</string>
+    <string name="yellow">Sarı</string>
+
+    <!-- Theme -->
+    <string name="theme">Tema</string>
+    <string name="classic">Klasik</string>
+
+    <!-- Favorites -->
+    <string name="favorites_empty">Favoriler Boş</string>
+    <string name="add_to_favorites">Favorilere Ekle</string>
+    <string name="remove_from_favorites">Favorilerden Sil</string>
+
+    <!-- Video -->
+    <string name="season">Sezon</string>
+    <string name="episode">Bölüm</string>
+    <string name="actors">Oyuncular</string>
+    <string name="trailer">Fragman</string>
+    <string name="torrents">Torrentler</string>
+    <string name="quality">Kalite</string>
+    <string name="size">Boyut</string>
+    <string name="seeds">Seedler</string>
+    <string name="peers">Eşler</string>
+    <string name="watch">İzle</string>
+    <string name="watch_it_now">Şimdi İzle</string>
+
+    <!-- Downloads -->
+    <string name="downloads">İndirilenler</string>
+    <string name="download">İndir</string>
+    <string name="open">Aç</string>
+    <string name="resume_all">Hepsini Başlat</string>
+    <string name="pause_all">Hepsini Duraklat</string>
+    <string name="remove_all">Hepsini Sil</string>
+    <string name="resume">Devam Et</string>
+    <string name="pause">Duraklat</string>
+    <string name="remove">Sil</string>
+
+    <!-- Settings -->
+    <string name="settings">Ayarlar</string>
+    <string name="interface_">Arayüz</string>
+    <string name="language">Dil</string>
+    <string name="start_page">Başlangıç Sayfası</string>
+    <string name="player">Oynatıcı</string>
+    <string name="use_only_wifi">Sadece Wi-Fi bağlantısı kullan</string>
+    <string name="connections_limit">Connections limit</string>
+    <string name="maximum_download_speed">En yüksek indirme hızı</string>
+    <string name="maximum_upload_speed">En yüksek karşıya yükleme hızı</string>
+    <string name="cache_folder">Önbellek Klasörü</string>
+    <string name="clear_cache_folder_on_exit">Çıkışta önbellek klasörünü temizle</string>
+    <string name="visit_site">Siteyi ziyaret et</string>
+    <string name="visit_forum">Forumu ziyaret et</string>
+    <string name="version">Sürüm</string>
+    <string name="about">Hakkında</string>
+
+    <!-- Vpn -->
+    <string name="vpn_disabled">VPN Disabled!</string>
+    <string name="use_vpn_to_avoid_risks">It is highly recommended to use VPN, to avoid unnecessary risks.</string>
+    <!--<string name="turn_on_vpn">Turn on VPN</string>-->
+
+    <!-- Other -->
+    <string name="retry">Yeniden Dene</string>
+    <string name="enabled">Etkin</string>
+    <string name="disabled">Devre Dışı</string>
+    <string name="confirm">Onayla</string>
+    <string name="unlimited">Sınırsız</string>
+    <string name="no_connection">Bağlantı Yok</string>
+    <string name="no_result_found">Sonuç Bulunamadı</string>
+    <string name="connect">Connect</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="continuez">Continue</string>
+
+    <string name="exit_msg">Çıkmak için tekrar\"Geriye\" tıklayın </string>
+    <string name="error_metadata">Veri indirme hatası. Yeniden deneyin</string>
+    <string name="search">Ara</string>
+    <string name="no_write_access">Bu dosyaya yazılamıyor. Yazma izni yok</string>
+    <string name="no_free_space">Hafızada kullanılabilir boş alan yok</string>
+    <string name="cache_folder_not_selected">Önbellek klasörü seçilmedi</string>
+    <string name="downloads_remove_msg">Emin misiniz?</string>
+    <string name="finished">Bitti</string>
+    <string name="paused">Durduruldu</string>
+    <string name="checking_data">Veri kontrol ediliyor</string>
+    <string name="disable_wifi_message">Ayarlardan \"Sadece Wi-Fi bağlantısını kullan\" seçeneğini kapatın veya Wi-Fi bağlantınızı açın</string>
+    <string name="device_storage">Device\'s Storage</string>
+    <string name="sdcard_storage">SD\'s Storage</string>
+
+</resources>

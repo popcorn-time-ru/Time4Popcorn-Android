@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Widget.Popcorn.DetailsRatingBar" parent="Widget.AppCompat.RatingBar.Indicator">
+        <item name="android:progressDrawable">@drawable/details_ratingbar_bkg</item>
+        <item name="android:indeterminateDrawable">@drawable/details_ratingbar_bkg</item>
+        <item name="android:minHeight">16dp</item>
+        <item name="android:maxHeight">16dp</item>
+        <item name="android:numStars">5</item>
+        <item name="android:stepSize">0.5</item>
+        <item name="android:isIndicator">true</item>
+    </style>
+
+    <!-- Navigation share button-->
+
+    <style name="Widget.Popcorn.NavigationShareButton" parent="Widget.AppCompat.Button.Colored">
+        <item name="shareIconColor">#ffffff</item>
+        <item name="colorButtonNormal">@color/v3_accent</item>
+    </style>
+
+    <!-- SearchView -->
+
+    <style name="Widget.Popcorn.SearchView" parent="Widget.AppCompat.SearchView.ActionBar">
+        <item name="goIcon">@drawable/ic_search</item>
+    </style>
+
+    <!-- Toolbar -->
+    <style name="Widget.Popcorn.Toolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="android:minHeight">0dp</item>
+    </style>
+
+    <style name="Widget.Popcorn.Classic.Toolbar" parent="Widget.Popcorn.Toolbar">
+        <item name="android:background">@drawable/classic_toolbar_bkg</item>
+    </style>
+
+    <!-- Toolbar title -->
+    <style name="Widget.Popcorn.Toolbar.Title">
+        <item name="android:textSize">@dimen/toolbar_title_size</item>
+    </style>
+
+    <style name="Widget.Popcorn.Classic.Toolbar.Title" parent="Widget.Popcorn.Toolbar.Title">
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <!-- Toolbar popup -->
+    <style name="Widget.Popcorn.Toolbar.Popup" parent="ThemeOverlay.AppCompat.Dark" />
+
+    <style name="Widget.Popcorn.Classic.Toolbar.Popup" parent="Widget.Popcorn.Toolbar.Popup" />
+
+    <!-- Widget -->
+    <style name="Widget.Popcorn.Classic.RatingBar" parent="@android:style/Widget.Holo.RatingBar">
+        <item name="android:isIndicator">true</item>
+        <item name="android:maxHeight">@dimen/video_rating_size</item>
+        <item name="android:minHeight">@dimen/video_rating_size</item>
+        <item name="android:numStars">5</item>
+        <item name="android:stepSize">0.5</item>
+        <item name="android:progressDrawable">@drawable/popcorn_rating_bar</item>
+    </style>
+
+    <!-- Prepare Watch -->
+
+    <style name="PrepareWatchProgressBarStyle" parent="Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/popcorn_progress</item>
+    </style>
+
+    <style name="PrepareWatchStatusText">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- Second launch dialog -->
+    <style name="SecondLaunchDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:textSize">@dimen/second_launch_dialog_button_text_size</item>
+    </style>
+
+    <style name="SecondLaunchDialogTitle">
+        <item name="android:textSize">@dimen/second_launch_dialog_title_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="SecondLaunchDialogText0">
+        <item name="android:textSize">@dimen/second_launch_dialog_text_size</item>
+    </style>
+
+    <style name="SecondLaunchDialogText1">
+        <item name="android:textSize">@dimen/second_launch_dialog_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="SecondLaunchDialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/second_launch_dialog_in</item>
+        <item name="android:windowExitAnimation">@anim/second_launch_dialog_out</item>
+    </style>
+
+    <!-- Other -->
+
+    <style name="FullscreenDialog">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFrame">@null</item>
+    </style>
+
+    <style name="WatchButton">
+        <item name="android:background">@drawable/popcorn_watch_selector</item>
+        <item name="android:shadowColor">@color/classic_text_shadow</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">2</item>
+        <item name="android:textColor">@color/classic_watch_text</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="DownloadOpenButton">
+        <item name="android:minHeight">@dimen/video_download_height</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/video_download_text</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="VideoItemSelectButton">
+        <item name="android:background">@drawable/popcorn_spinner</item>
+        <item name="android:minHeight">@dimen/video_spinner_height</item>
+        <item name="android:textSize">@dimen/video_spinner_text</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="shareIconColor" format="reference|color" />
+
+    <attr name="baseLabelColor" format="reference|color" />
+
+    <attr name="toolbar" format="reference" />
+    <attr name="toolbarTitle" format="reference" />
+    <attr name="toolbarPopup" format="reference" />
+
+    <attr name="mainBackground" format="reference|color" />
+
+    <attr name="videoBackground" format="reference|color" />
+    <attr name="videoPosterShadowLand" format="reference|color" />
+    <attr name="videoPosterShadowPort" format="reference|color" />
+
+    <attr name="prepareWatchProgressBarStyle" format="reference" />
+    <attr name="prepareWatchStatusTextStyle" format="reference" />
+
+</resources>

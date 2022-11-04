@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="movies_weight">100</integer>
+    <integer name="movies_info_weight">60</integer>
+    <integer name="movies_options_weight">40</integer>
+</resources>

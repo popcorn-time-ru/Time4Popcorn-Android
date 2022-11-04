@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="playerToolbarStyle" format="reference"/>
+    <attr name="playerInfoStyle" format="reference"/>
+    <attr name="playerOverlayBackground" format="color|reference"/>
+    <attr name="playerTimeStyle" format="reference"/>
+    <attr name="playerSeekBarBackground" format="reference|color"/>
+    <attr name="playerSeekBarStyle" format="reference"/>
+    <attr name="playerOverlayButtonStyle" format="reference"/>
+    <attr name="playerBufferingProgressBarStyle" format="reference"/>
+    <attr name="playerBufferingPercentStyle" format="reference"/>
+</resources>

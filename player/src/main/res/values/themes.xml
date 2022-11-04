@@ -1,0 +1,25 @@
+<resources>
+
+    <style name="Theme.Player.Base" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@color/window_background</item>-->
+        <item name="playerToolbarStyle">@style/Widget.Player.Toolbar</item>
+        <item name="playerInfoStyle">@style/Widget.Player.Info</item>
+        <item name="playerOverlayBackground">@color/overlay</item>
+        <item name="playerTimeStyle">@style/Widget.Player.Time</item>
+        <item name="playerSeekBarBackground">@drawable/seek_bar_bkg</item>
+        <item name="playerSeekBarStyle">@style/Widget.Player.SeekBar</item>
+        <item name="playerOverlayButtonStyle">@style/Widget.Player.OverlayButton</item>
+        <item name="playerBufferingProgressBarStyle">@style/Widget.Player.Buffering.ProgressBar</item>
+        <item name="playerBufferingPercentStyle">@style/Widget.Player.Buffering.Percent</item>
+    </style>
+
+    <style name="Theme.Player" parent="Theme.Player.Base">
+        <item name="colorAccent">#ffffff</item>
+    </style>
+
+    <style name="Theme.Player.Dialog" parent="Theme.AppCompat.Dialog">
+        <!--<item name="listPreferredItemPaddingLeft">24dip</item>-->
+        <!--<item name="listPreferredItemPaddingRight">24dip</item>-->
+    </style>
+</resources>

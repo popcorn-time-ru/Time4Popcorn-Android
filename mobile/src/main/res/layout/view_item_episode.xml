@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.AppCompatTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/season"
+    android:layout_width="32dp"
+    android:layout_height="32dp"
+    android:layout_margin="8dp"
+    android:background="@drawable/details_tvshow_season_bkg"
+    android:clickable="true"
+    android:gravity="center"
+    android:textColor="#66ffffff"
+    tools:text="11" />

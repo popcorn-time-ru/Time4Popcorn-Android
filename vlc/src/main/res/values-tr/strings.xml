@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hardware_acceleration">Donanım Hızlandırma</string>
+    <string name="hardware_acceleration_automatic">Kendiliğinden</string>
+    <string name="hardware_acceleration_disabled">Devre Dışı</string>
+    <string name="hardware_acceleration_decoding">Kod çözme hızlandırması</string>
+    <string name="hardware_acceleration_full">Tam hızlandırma</string>
+
+    <string name="surface_best_fit">En uygun</string>
+    <string name="surface_fit_horizontal">Yatay sığdır</string>
+    <string name="surface_fit_vertical">Dikey sığdır</string>
+    <string name="surface_fill">Doldur</string>
+    <string name="surface_original">Ortala</string>
+
+</resources>

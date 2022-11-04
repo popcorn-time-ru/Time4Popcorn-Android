@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:minHeight="72dp"
+    android:orientation="vertical"
+    android:paddingBottom="20dp"
+    android:paddingLeft="16sp"
+    android:paddingRight="16sp"
+    android:paddingTop="20dp">
+
+    <TextView
+        android:id="@+id/textPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:textColor="?android:textColorPrimary"
+        android:textSize="16sp"
+        tools:text="Primary"/>
+
+    <TextView
+        android:id="@+id/textSecondary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:textColor="?android:textColorSecondary"
+        android:textSize="14sp"
+        tools:text="Secondary and very very long text inside this text view for test"/>
+</LinearLayout>

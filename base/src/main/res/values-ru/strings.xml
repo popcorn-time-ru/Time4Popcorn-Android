@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Updater -->
+    <string name="available_new_version">Доступна новая версия</string>
+    <string name="update_now">Обновить сейчас!</string>
+    <string name="update">Обновить</string>
+    <string name="later">Позже</string>
+
+    <!-- Video category -->
+    <string name="cinema">Кино</string>
+    <string name="anime">Аниме</string>
+    <string name="favorites">Избранное</string>
+
+    <!-- Video subcategory -->
+    <string name="movies">Фильмы</string>
+    <string name="tv_shows">Сериалы</string>
+
+    <!-- Genre -->
+    <string name="genre">Жанр</string>
+    <string name="popular">Популярное</string>
+    <string name="action">Боевик</string>
+    <string name="adventure">Приключения</string>
+    <string name="animation">Анимационный</string>
+    <string name="biography">Биография</string>
+    <string name="comedy">Комедия</string>
+    <string name="crime">Криминальный</string>
+    <string name="documentary">Документальный</string>
+    <string name="drama">Драма</string>
+    <string name="family">Семейное</string>
+    <string name="fantasy">Фантастика</string>
+    <string name="film_noir">Фильм-Нуар</string>
+    <string name="history">Исторический</string>
+    <string name="horror">Фильм ужасов</string>
+    <string name="music">Музыкальный</string>
+    <string name="musical">Мюзикл</string>
+    <string name="mystery">Мистика</string>
+    <string name="romance">Романтический</string>
+    <string name="sci_fi">Научная фантастика</string>
+    <string name="short_">Короткометражный</string>
+    <string name="sport">Спортивный</string>
+    <string name="thriller">Триллер</string>
+    <string name="war">Военный</string>
+    <string name="western">Вестерн</string>
+
+    <!-- Sorted by-->
+    <string name="sort_by">Сортировать по</string>
+    <string name="popularity">Популярность</string>
+    <string name="date_added">Дата добавления</string>
+    <string name="year">Год</string>
+
+    <!-- Subtitles -->
+    <string name="default_subtitle">Субтитры по умолчанию</string>
+    <string name="font_size">Размер шрифта</string>
+    <string name="extra_small">Очень маленький</string>
+    <string name="small">Маленький</string>
+    <string name="normal">Обычный</string>
+    <string name="large">Большой</string>
+    <string name="extra_large">Очень большой</string>
+    <string name="font_color">Цвет шрифта</string>
+    <string name="white">Белый</string>
+    <string name="yellow">Желтый</string>
+
+    <!-- Theme -->
+    <string name="theme">Оформление</string>
+    <string name="classic">Классика</string>
+
+    <!-- Favorites -->
+    <string name="favorites_empty">Список избранного пуст</string>
+    <string name="add_to_favorites">Добавить в Избранное</string>
+    <string name="remove_from_favorites">Удалить из Избранного</string>
+
+    <!-- Video -->
+    <string name="season">Сезон</string>
+    <string name="episode">Эпизод</string>
+    <string name="actors">В ролях</string>
+    <string name="trailer">Трейлер</string>
+    <string name="torrents">Торренты</string>
+    <string name="quality">Качество</string>
+    <string name="size">Размер</string>
+    <string name="seeds">Сиды</string>
+    <string name="peers">Пиры</string>
+    <string name="watch">Смотреть</string>
+    <string name="watch_it_now">Смотреть сейчас</string>
+
+    <!-- Downloads -->
+    <string name="downloads">Загрузки</string>
+    <string name="download">Загрузить</string>
+    <string name="open">Открыть</string>
+    <string name="resume_all">Возобновить все</string>
+    <string name="pause_all">Остановить все</string>
+    <string name="remove_all">Удалить все</string>
+    <string name="resume">Возобновить</string>
+    <string name="pause">Остановить</string>
+    <string name="remove">Удалить</string>
+
+    <!-- Settings -->
+    <string name="settings">Настройки</string>
+    <string name="interface_">Интерфейс</string>
+    <string name="language">Язык</string>
+    <string name="start_page">Стартовая страница</string>
+    <string name="player">Плеер</string>
+    <string name="use_only_wifi">Использовать только Wi-Fi соединение</string>
+    <string name="connections_limit">Лимит соединений</string>
+    <string name="maximum_download_speed">Максимальная скорость загрузки</string>
+    <string name="maximum_upload_speed">Максимальная скорость отдачи</string>
+    <string name="cache_folder">Кэш папка</string>
+    <string name="clear_cache_folder_on_exit">Очистить кэш папку при выходе</string>
+    <string name="visit_site">Посетить сайт</string>
+    <string name="visit_forum">Посетить форум</string>
+    <string name="version">Версия</string>
+    <string name="about">О программе</string>
+
+    <!-- Vpn -->
+    <string name="vpn_disabled">VPN Отключен!</string>
+    <string name="use_vpn_to_avoid_risks">Настоятельно рекомендуется использовать VPN, чтобы избежать ненужных рисков.</string>
+    <!--<string name="turn_on_vpn">Включить VPN</string>-->
+
+    <!-- Other -->
+    <string name="retry">Повторить</string>
+    <string name="enabled">Включено</string>
+    <string name="disabled">Отключено</string>
+    <string name="confirm">Подтвердить</string>
+    <string name="unlimited">Неограниченно</string>
+    <string name="no_connection">Нет соединения</string>
+    <string name="no_result_found">Результатов не найдено</string>
+    <string name="connect">Подключить</string>
+    <string name="disconnect">Отключить</string>
+    <string name="continuez">Продолжить</string>
+
+    <string name="exit_msg">Для выхода нажмите \"Назад\" еще раз</string>
+    <string name="error_metadata">Ошибка загрузки данных. Попробуйте еще раз</string>
+    <string name="search">Искать</string>
+    <string name="no_write_access">Нет прав для записи данных в данную папку</string>
+    <string name="no_free_space">Нет свободного места на диске</string>
+    <string name="cache_folder_not_selected">Кэш папка не выбрана</string>
+    <string name="downloads_remove_msg">Вы уверены?</string>
+    <string name="finished">Завершен</string>
+    <string name="paused">Остановлен</string>
+    <string name="checking_data">Проверка данных</string>
+    <string name="disable_wifi_message">Отключите \"Использовать только Wi-Fi соединение\" в Настройках или активируйте ваше Wi-Fi соединение</string>
+    <string name="device_storage">Хранилище на устройстве</string>
+    <string name="sdcard_storage">Хранилище на SD-карте</string>
+
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@android:id/background"
+        android:drawable="@drawable/ic_rating_star">
+        <bitmap
+            android:src="@drawable/ic_rating_star"
+            android:tint="?attr/colorControlNormal" />
+    </item>
+
+    <item
+        android:id="@android:id/secondaryProgress"
+        android:drawable="@drawable/ic_rating_half_star">
+        <bitmap
+            android:src="@drawable/ic_rating_half_star"
+            android:tint="?attr/colorControlActivated" />
+    </item>
+
+    <item
+        android:id="@android:id/progress"
+        android:drawable="@drawable/ic_rating_star_activated">
+        <bitmap
+            android:src="@drawable/ic_rating_star_activated"
+            android:tileModeX="repeat"
+            android:tint="?attr/colorControlActivated" />
+    </item>
+</layer-list>

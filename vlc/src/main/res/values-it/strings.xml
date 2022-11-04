@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hardware_acceleration">Accelerazione hardware</string>
+    <string name="hardware_acceleration_automatic">Automatico</string>
+    <string name="hardware_acceleration_disabled">Disabilitata</string>
+    <string name="hardware_acceleration_decoding">Accelerazione decodifica</string>
+    <string name="hardware_acceleration_full">Accelerazione completa</string>
+
+    <string name="surface_best_fit">Adatta allo schermo</string>
+    <string name="surface_fit_horizontal">Adatta orizzontalmente</string>
+    <string name="surface_fit_vertical">Adatta verticalmente</string>
+    <string name="surface_fill">Riempi</string>
+    <string name="surface_original">Centra</string>
+
+</resources>

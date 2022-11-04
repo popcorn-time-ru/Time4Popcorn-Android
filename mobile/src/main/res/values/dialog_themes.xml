@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base -->
+
+    <style name="Theme.Popcorn.Dialog.Base" parent="Theme.AppCompat.Dialog.Alert" />
+
+    <style name="Theme.Popcorn.Dialog" parent="Theme.Popcorn.Dialog.Base" />
+
+    <!-- Vpn -->
+
+    <style name="Theme.Popcorn.VpnDialog.Base" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="windowMinWidthMajor">95%</item>
+        <item name="android:windowMinWidthMajor">95%</item>
+        <item name="android:buttonBarButtonStyle">@style/Widget.Popcorn.VpnDialog.Button</item>
+        <item name="buttonBarButtonStyle">@style/Widget.Popcorn.VpnDialog.Button</item>
+        <item name="colorAccent">@color/v3_accent</item>
+        <item name="colorButtonNormal">@color/v3_accent</item>
+    </style>
+
+    <style name="Theme.Popcorn.VpnDialog" parent="Theme.Popcorn.VpnDialog.Base">
+        <item name="buttonBarPositiveButtonStyle">@style/Widget.Popcorn.VpnDialog.PositiveButton</item>
+    </style>
+
+    <style name="Widget.Popcorn.VpnDialog.Button.Base" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="Widget.Popcorn.VpnDialog.Button" parent="Widget.Popcorn.VpnDialog.Button.Base">
+
+    </style>
+
+    <style name="Widget.Popcorn.VpnDialog.PositiveButton" parent="Widget.Popcorn.VpnDialog.Button.Base">
+        <item name="android:textColor">#bdbdbd</item>
+    </style>
+</resources>

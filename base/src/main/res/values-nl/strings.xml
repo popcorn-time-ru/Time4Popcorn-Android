@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Updater -->
+    <string name="available_new_version">Beschikbare nieuwe versie</string>
+    <string name="update_now">Update nu!</string>
+    <string name="update">Update</string>
+    <string name="later">Later</string>
+
+    <!-- Video category -->
+    <string name="cinema">Cinema</string>
+    <string name="anime">Anime</string>
+    <string name="favorites">Favorieten</string>
+
+    <!-- Video subcategory -->
+    <string name="movies">Films</string>
+    <string name="tv_shows">Series</string>
+
+    <!-- Genre -->
+    <string name="genre">Genre</string>
+    <string name="popular">Populair</string>
+    <string name="action">Actie</string>
+    <string name="adventure">Avontuur</string>
+    <string name="animation">Animatie</string>
+    <string name="biography">Biografie</string>
+    <string name="comedy">Humor</string>
+    <string name="crime">Misdaad</string>
+    <string name="documentary">Documentaire</string>
+    <string name="drama">Drama</string>
+    <string name="family">Familie</string>
+    <string name="fantasy">Fantasie</string>
+    <string name="film_noir">Film-Noir</string>
+    <string name="history">Geschiedenis</string>
+    <string name="horror">Horror</string>
+    <string name="music">Muziek</string>
+    <string name="musical">Musical</string>
+    <string name="mystery">Mysterie</string>
+    <string name="romance">Romance</string>
+    <string name="sci_fi">Sci-Fi</string>
+    <string name="short_">Kort</string>
+    <string name="sport">Sport</string>
+    <string name="thriller">Thriller</string>
+    <string name="war">Oorlog</string>
+    <string name="western">Western</string>
+
+    <!-- Sorted by-->
+    <string name="sort_by">Sort By</string>
+    <string name="popularity">Popularity</string>
+    <string name="date_added">Date added</string>
+    <string name="year">Year</string>
+
+    <!-- Subtitles -->
+    <string name="default_subtitle">Standaard ondertiteling</string>
+    <string name="font_size">Lettergrootte</string>
+    <string name="extra_small">Zeer klein</string>
+    <string name="small">Klein</string>
+    <string name="normal">Normaal</string>
+    <string name="large">Groot</string>
+    <string name="extra_large">Zeer groot</string>
+    <string name="font_color">Tekstkleur</string>
+    <string name="white">Wit</string>
+    <string name="yellow">Geel</string>
+
+    <!-- Theme -->
+    <string name="theme">Thema</string>
+    <string name="classic">Klassiek</string>
+
+    <!-- Favorites -->
+    <string name="favorites_empty">Favorites empty</string>
+    <string name="add_to_favorites">Voeg toe aan Favorieten</string>
+    <string name="remove_from_favorites">Verwijder uit Favorieten</string>
+
+    <!-- Video -->
+    <string name="season">Seizoen</string>
+    <string name="episode">Aflevering</string>
+    <string name="actors">Starring</string>
+    <string name="trailer">Trailer</string>
+    <string name="torrents">Torrents</string>
+    <string name="quality">Kwaliteit</string>
+    <string name="size">Grootte</string>
+    <string name="seeds">Seeds</string>
+    <string name="peers">Peers</string>
+    <string name="watch">Watch</string>
+    <string name="watch_it_now">Afspelen</string>
+
+    <!-- Downloads -->
+    <string name="downloads">Downloads</string>
+    <string name="download">Download</string>
+    <string name="open">Open</string>
+    <string name="resume_all">Hervat alles</string>
+    <string name="pause_all">Pauzeer alles</string>
+    <string name="remove_all">Verwijder alles</string>
+    <string name="resume">Hervat</string>
+    <string name="pause">Pauzeer</string>
+    <string name="remove">Verwijder</string>
+
+    <!-- Settings -->
+    <string name="settings">Instellingen</string>
+    <string name="interface_">Interface</string>
+    <string name="language">Taal</string>
+    <string name="start_page">Start pagina</string>
+    <string name="player">Speler</string>
+    <string name="use_only_wifi">Use only Wi-Fi connection</string>
+    <string name="connections_limit">Connections limit</string>
+    <string name="maximum_download_speed">Maximum download speed</string>
+    <string name="maximum_upload_speed">Maximum upload speed</string>
+    <string name="cache_folder">Cache-map</string>
+    <string name="clear_cache_folder_on_exit">Leeg de cache-map bij het afsluiten</string>
+    <string name="visit_site">Visit site</string>
+    <string name="visit_forum">Visit forum</string>
+    <string name="version">Versie</string>
+    <string name="about">Over</string>
+
+    <!-- Vpn -->
+    <string name="vpn_disabled">VPN Uitgeschakeld!</string>
+    <string name="use_vpn_to_avoid_risks">Om de vele risico\'s verbonden aan het downloaden van torrents te vermijden Het wordt sterk aanbevolen om VPN te gebruiken.</string>
+    <!--<string name="turn_on_vpn">Zet VPN aan</string>-->
+
+    <!-- Other -->
+    <string name="retry">Opnieuw proberen</string>
+    <string name="enabled">Ingeschakeld</string>
+    <string name="disabled">Uitgeschakeld</string>
+    <string name="confirm">Bevestig</string>
+    <string name="unlimited">Unlimited</string>
+    <string name="no_connection">Geen verbinding</string>
+    <string name="no_result_found">No result found</string>
+    <string name="connect">Connect</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="continuez">Voortzetten</string>
+
+    <string name="exit_msg">Druk nog een keer op de \"Terug\"-knop om af te sluiten</string>
+    <string name="error_metadata">Kon gegevens niet laden. Probeer het opnieuw</string>
+    <string name="search">Zoek</string>
+    <string name="no_write_access">Kan niet naar deze map schrijven. Geen schrijftoegang</string>
+    <string name="no_free_space">Er is geen vrije ruimte meer op de schijf</string>
+    <string name="cache_folder_not_selected">Cache-map niet geselecteerd</string>
+    <string name="downloads_remove_msg">Weet je het zeker?</string>
+    <string name="finished">Afgerond</string>
+    <string name="paused">Gepauzeerd</string>
+    <string name="checking_data">Gegevens controleren</string>
+    <string name="disable_wifi_message">Disable \"Use only Wi-Fi connection\" in Settings or activate your Wi-Fi connection</string>
+    <string name="device_storage">Device\'s Storage</string>
+    <string name="sdcard_storage">SD\'s Storage</string>
+
+</resources>

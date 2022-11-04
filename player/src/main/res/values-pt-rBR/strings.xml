@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="locked">Bloqueado</string>
+    <string name="unlocked">Desbloqueado</string>
+    <string name="track_audio">Trilha de áudio</string>
+    <string name="share">Compartilhar</string>
+    <string name="brightness">Brilho</string>
+    <string name="volume">Volume</string>
+
+    <string name="subtitles">Legendas</string>
+    <string name="without_subtitle">Sem legenda</string>
+    <string name="custom_subtitle">Personalizado legenda</string>
+    <string name="select_subtitle">Selecionar legenda</string>
+
+    <string name="subtitle_settings">Definições de legendas</string>
+    <string name="subtitle_settings_language">Idioma da legenda</string>
+    <string name="subtitle_settings_size">Tamanho da Fonte</string>
+    <string name="subtitle_settings_shift">Temporização de legendas</string>
+
+    <!-- Subtitle font size -->
+    <string name="extra_small">Muito pequena</string>
+    <string name="small">Pequena</string>
+    <string name="normal">Normal</string>
+    <string name="large">Gramde</string>
+    <string name="extra_large">Muito gramde</string>
+
+    <string name="aspect_ratio">Aspect ratio</string>
+</resources>

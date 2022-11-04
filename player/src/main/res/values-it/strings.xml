@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="locked">Bloccato</string>
+    <string name="unlocked">Sbloccato</string>
+    <string name="track_audio">Traccia audio</string>
+    <string name="share">Dividere</string>
+    <string name="brightness">Luminosità</string>
+    <string name="volume">Volume</string>
+
+    <string name="subtitles">Sottotitoli</string>
+    <string name="without_subtitle">Senza Sottotitoli</string>
+    <string name="custom_subtitle">Sottotitoli Personalizzati</string>
+    <string name="select_subtitle">Seleziona Sottotitoli</string>
+
+    <string name="subtitle_settings">Impostazioni sottotitoli</string>
+    <string name="subtitle_settings_language">Lingua dei sottotitoli</string>
+    <string name="subtitle_settings_size">Dimensione Carattere</string>
+    <string name="subtitle_settings_shift">Sincronizzazione dei sottotitoli</string>
+
+    <!-- Subtitle font size -->
+    <string name="extra_small">Molto Piccolo</string>
+    <string name="small">Piccolo</string>
+    <string name="normal">Normale</string>
+    <string name="large">Grande</string>
+    <string name="extra_large">Molto Grande</string>
+
+    <string name="aspect_ratio">Aspect ratio</string>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="locked">Locked</string>
+    <string name="unlocked">Unlocked</string>
+    <string name="track_audio">Audio track</string>
+    <string name="share">Share</string>
+    <string name="brightness">Brightness</string>
+    <string name="volume">Volume</string>
+
+    <string name="subtitles">Subtitles</string>
+    <string name="without_subtitle">Without subtitle</string>
+    <string name="custom_subtitle">Custom subtitle</string>
+    <string name="select_subtitle">Select subtitle</string>
+
+    <string name="subtitle_settings">Subtitle settings</string>
+    <string name="subtitle_settings_language">Subtitle language</string>
+    <string name="subtitle_file">Subtitle file</string>
+    <string name="subtitle_settings_size">Font size</string>
+    <string name="subtitle_settings_shift">Subtitle timing</string>
+
+    <!-- Subtitle font size -->
+    <string name="extra_small">Extra small</string>
+    <string name="small">Small</string>
+    <string name="normal">Normal</string>
+    <string name="large">Large</string>
+    <string name="extra_large">Extra large</string>
+
+    <string name="aspect_ratio">Aspect ratio</string>
+</resources>

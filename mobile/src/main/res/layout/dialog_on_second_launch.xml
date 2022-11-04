@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="10dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/share_mascot" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView0"
+                style="@style/SecondLaunchDialogTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/second_launch_dialog_text_color"
+                tools:text="@string/second_launch_dialog_header" />
+
+            <TextView
+                android:id="@+id/textView1"
+                style="@style/SecondLaunchDialogText0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/second_launch_dialog_text_color"
+                tools:text="@string/second_launch_dialog_text1" />
+
+            <TextView
+                android:id="@+id/textView2"
+                style="@style/SecondLaunchDialogText0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="7dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/second_launch_dialog_text_color"
+                tools:text="@string/second_launch_dialog_text2" />
+
+            <TextView
+                android:id="@+id/textView3"
+                style="@style/SecondLaunchDialogText1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/second_launch_dialog_text_color"
+                tools:text="@string/second_launch_dialog_text3" />
+
+            <TextView
+                android:id="@+id/textView4"
+                style="@style/SecondLaunchDialogText1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/second_launch_dialog_text_color"
+                tools:text="@string/second_launch_dialog_text4" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/share_btn_selector"
+            android:paddingBottom="12dp"
+            android:paddingTop="12dp"
+            android:textColor="@color/second_launch_dialog_share_button_text_color"
+            android:textStyle="bold"
+            tools:text="@string/second_launch_dialog_btn_text" />
+    </LinearLayout>
+</LinearLayout>

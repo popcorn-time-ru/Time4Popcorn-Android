@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Subtitle font size -->
+    <string-array name="font_size_names">
+        <item>@string/extra_small</item>
+        <item>@string/small</item>
+        <item>@string/normal</item>
+        <item>@string/large</item>
+        <item>@string/extra_large</item>
+    </string-array>
+</resources>

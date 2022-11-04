@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/season_name"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:gravity="center_horizontal"
+    android:paddingBottom="@dimen/tvshow_season_padding"
+    android:paddingTop="@dimen/tvshow_season_padding"
+    android:textColor="@drawable/popcorn_season_selector"
+    android:textSize="@dimen/tvshow_season_item_text" />

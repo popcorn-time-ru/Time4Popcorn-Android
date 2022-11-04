@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="second_launch_dialog_btn_text">SHARE</string>
+    <string name="second_launch_dialog_header">PLEASE SUPPORT US!</string>
+    <string name="second_launch_dialog_text1">The Popcorn Time revolution is not just about online streaming, it\'s way greater than that. But it cannot happen, if you don\'t help us!</string>
+    <string name="second_launch_dialog_text2">We\'ve never asked for anything in return for all the hard work we\'re putting in to this project. Now we\'re asking you for just one thing, which seems so small, but is SO important, way more important than you think:</string>
+    <string name="second_launch_dialog_text3">SHARE POPCORN TIME</string>
+    <string name="second_launch_dialog_text4">You cannot understand how helpful this little share is to us. To this revolution.</string>
+
+    <string name="seasons">Seasons</string>
+    <string name="dubbing">Dubbing</string>
+
+    <string name="movie_marked_as_watched">Movie marked as watched</string>
+    <string name="movie_marked_as_unwatched">Movie marked as unwatched</string>
+    <string name="episode_marked_as_watched">Episode marked as watched</string>
+    <string name="episode_marked_as_unwatched">Episode marked as unwatched</string>
+</resources>

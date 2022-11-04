@@ -1,0 +1,78 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion '24.0.3'
+    defaultConfig {
+        applicationId 'to.popcorn_time.mobile'
+        minSdkVersion 14
+        targetSdkVersion 24
+        versionCode 111
+        versionName '3.0.0'
+        multiDexEnabled true
+        vectorDrawables.useSupportLibrary = true
+        setProperty("archivesBaseName", "popcorntime-v$versionName.$versionCode")
+
+        buildConfigField('String', 'FIREBASE_DEV_TOPIC', 'null');
+        buildConfigField('String', 'API_DOMAIN', 'null');
+        buildConfigField('String', 'POSTER_DOMAIN', 'null');
+        buildConfigField('String', 'API_ANIME_DOMAIN', 'null');
+        buildConfigField('String', 'SUBTITLE_DOMAIN', 'null');
+        buildConfigField('String', 'APP_SITE', 'null');
+        buildConfigField('String', 'APP_FORUM', 'null');
+        buildConfigField('String', 'APP_FACEBOOK', 'null');
+        buildConfigField('String', 'APP_TWITTER', 'null');
+        buildConfigField('String', 'APP_YOUTUBE', 'null');
+        buildConfigField('String', 'IMDB_URL', 'null');
+        buildConfigField('String[]', 'SHARE_DOMAINS', 'null')
+        buildConfigField('String', 'ANALYTICS_TRACKER_ID', 'null')
+        buildConfigField('String', 'APP_ID', 'null')
+        buildConfigField('String[]', 'VPN_PROVIDERS', 'null')
+        buildConfigField('String[]', 'CONFIG_DOMAINS', 'null')
+        buildConfigField('String[]', 'UPDATER_DOMAINS', 'null');
+        buildConfigField('String', 'FIREBASE_DEV_TOPIC', 'null');
+
+        buildConfigField('boolean', 'IS_APP_FULL', 'true');
+    }
+    dexOptions {
+        javaMaxHeapSize '4g'
+    }
+    packagingOptions {
+        exclude 'META-INF/maven/com.squareup.okio/okio/pom.xml'
+        exclude 'META-INF/maven/com.squareup.okio/okio/pom.properties'
+        exclude 'META-INF/maven/com.squareup.okhttp3/okhttp/pom.xml'
+        exclude 'META-INF/maven/com.squareup.okhttp3/okhttp/pom.properties'
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        dev {
+            buildConfigField('String', 'FIREBASE_DEV_TOPIC', '"dev"');
+        }
+    }
+    splits {
+        abi {
+            enable false
+            universalApk true
+            reset()
+            include 'armeabi', 'armeabi-v7a', 'arm64-v8a', 'x86'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:multidex:1.0.1'
+    compile 'com.android.support:recyclerview-v7:24.2.1'
+    compile 'com.android.support:preference-v14:24.2.1'
+    compile 'com.android.support:design:24.2.1'
+    compile 'com.android.support:cardview-v7:24.2.1'
+    compile 'com.android.support:palette-v7:24.2.1'
+    compile 'me.grantland:autofittextview:0.2.+'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'com.jakewharton.picasso:picasso2-okhttp3-downloader:1.1.0'
+    compile project(':base')
+    compile project(':vlc')
+}

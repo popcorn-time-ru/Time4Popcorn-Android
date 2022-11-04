@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hardware_acceleration">Аппаратное ускорение</string>
+    <string name="hardware_acceleration_automatic">Автоматически</string>
+    <string name="hardware_acceleration_disabled">Отключено</string>
+    <string name="hardware_acceleration_decoding">Ускорение декодирования</string>
+    <string name="hardware_acceleration_full">Полное ускорение</string>
+
+    <string name="surface_best_fit">Оптимально</string>
+    <string name="surface_fit_horizontal">По горизонтали</string>
+    <string name="surface_fit_vertical">По вертикали</string>
+    <string name="surface_fill">Заполнение</string>
+    <string name="surface_original">По центру</string>
+
+</resources>

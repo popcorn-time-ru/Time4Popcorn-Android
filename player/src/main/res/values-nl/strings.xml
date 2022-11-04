@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="locked">Geblokkeerd</string>
+    <string name="unlocked">Gedeblokkeerd</string>
+    <string name="track_audio">Audiospoor</string>
+    <string name="share">Delen</string>
+    <string name="brightness">Helderheid</string>
+    <string name="volume">Volume</string>
+
+    <string name="subtitles">Ondertiteling</string>
+    <string name="without_subtitle">Zonder ondertiteling</string>
+    <string name="custom_subtitle">Custom ondertitel</string>
+    <string name="select_subtitle">Selecteer ondertitel</string>
+
+    <string name="subtitle_settings">Ondertitel instellingen</string>
+    <string name="subtitle_settings_language">Ondertitel taal</string>
+    <string name="subtitle_settings_size">Lettergrootte</string>
+    <string name="subtitle_settings_shift">Ondertitel timing</string>
+
+    <!-- Subtitle font size -->
+    <string name="extra_small">Zeer klein</string>
+    <string name="small">Klein</string>
+    <string name="normal">Normaal</string>
+    <string name="large">Groot</string>
+    <string name="extra_large">Zeer groot</string>
+
+    <string name="aspect_ratio">Aspect ratio</string>
+</resources>

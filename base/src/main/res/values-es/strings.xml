@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Updater -->
+    <string name="available_new_version">Nueva versión disponible</string>
+    <string name="update_now">¡Actualizar ahora!</string>
+    <string name="update">Actualizar</string>
+    <string name="later">Después</string>
+
+    <!-- Video category -->
+    <string name="cinema">Cinema</string>
+    <string name="anime">Anime</string>
+    <string name="favorites">Favoritos</string>
+
+    <!-- Video subcategory -->
+    <string name="movies">Películas</string>
+    <string name="tv_shows">Series</string>
+
+    <!-- Genre -->
+    <string name="genre">Genre</string>
+    <string name="popular">Popular</string>
+    <string name="action">Acción</string>
+    <string name="adventure">Aventura</string>
+    <string name="animation">Animación</string>
+    <string name="biography">Biografía</string>
+    <string name="comedy">Comedia</string>
+    <string name="crime">Crimen</string>
+    <string name="documentary">Documental</string>
+    <string name="drama">Drama</string>
+    <string name="family">Familiar</string>
+    <string name="fantasy">Fantasía</string>
+    <string name="film_noir">Cine negro</string>
+    <string name="history">Historia</string>
+    <string name="horror">Horror</string>
+    <string name="music">Música</string>
+    <string name="musical">Musical</string>
+    <string name="mystery">Misterio</string>
+    <string name="romance">Romance</string>
+    <string name="sci_fi">Sci-Fi</string>
+    <string name="short_">Corto</string>
+    <string name="sport">Deporte</string>
+    <string name="thriller">Thriller</string>
+    <string name="war">Bélica</string>
+    <string name="western">Western</string>
+
+    <!-- Sorted by-->
+    <string name="sort_by">Sort By</string>
+    <string name="popularity">Popularity</string>
+    <string name="date_added">Date added</string>
+    <string name="year">Year</string>
+
+    <!-- Subtitles -->
+    <string name="default_subtitle">Subtitulo por defecto</string>
+    <string name="font_size">Tamaño de la fuente</string>
+    <string name="extra_small">Muy pequeña</string>
+    <string name="small">Pequeña</string>
+    <string name="normal">Normal</string>
+    <string name="large">Grande</string>
+    <string name="extra_large">Muy grande</string>
+    <string name="font_color">Color de la fuente</string>
+    <string name="white">Blanco</string>
+    <string name="yellow">Amarillo</string>
+
+    <!-- Theme -->
+    <string name="theme">Tema</string>
+    <string name="classic">Clásico</string>
+
+    <!-- Favorites -->
+    <string name="favorites_empty">Favorites empty</string>
+    <string name="add_to_favorites">Añadir a favoritos</string>
+    <string name="remove_from_favorites">Eliminar de favoritos</string>
+
+    <!-- Video -->
+    <string name="season">Temporada</string>
+    <string name="episode">Episodio</string>
+    <string name="actors">Reparto</string>
+    <string name="trailer">Trailer</string>
+    <string name="torrents">Torrents</string>
+    <string name="quality">Calidad</string>
+    <string name="size">Tamaño</string>
+    <string name="seeds">Semillas</string>
+    <string name="peers">Compañeros</string>
+    <string name="watch">Watch</string>
+    <string name="watch_it_now">Ver ahora</string>
+
+    <!-- Downloads -->
+    <string name="downloads">Descargas</string>
+    <string name="download">Descarga</string>
+    <string name="open">Abrir</string>
+    <string name="resume_all">Reanudar todos</string>
+    <string name="pause_all">Pausar todos</string>
+    <string name="remove_all">Eliminar todos</string>
+    <string name="resume">Reanudar</string>
+    <string name="pause">Pausar</string>
+    <string name="remove">Eliminar</string>
+
+    <!-- Settings -->
+    <string name="settings">Ajustes</string>
+    <string name="interface_">Interfaz</string>
+    <string name="language">Idioma</string>
+    <string name="start_page">Página de inicio</string>
+    <string name="player">Reproductor</string>
+    <string name="use_only_wifi">Use only Wi-Fi connection</string>
+    <string name="connections_limit">Connections limit</string>
+    <string name="maximum_download_speed">Maximum download speed</string>
+    <string name="maximum_upload_speed">Maximum upload speed</string>
+    <string name="cache_folder">Carpeta para caché</string>
+    <string name="clear_cache_folder_on_exit">Limpiar carpeta de caché al salir</string>
+    <string name="visit_site">Visit site</string>
+    <string name="visit_forum">Visit forum</string>
+    <string name="version">Versión</string>
+    <string name="about">Acerca de</string>
+
+    <!-- Vpn -->
+    <string name="vpn_disabled">¡VPN Desconectado!</string>
+    <string name="use_vpn_to_avoid_risks">Se recomienda usar una conexión VPN para evitar riesgos innecesarios.</string>
+    <!--<string name="turn_on_vpn">Conectar VPN</string>-->
+
+    <!-- Other -->
+    <string name="retry">Reintentar</string>
+    <string name="enabled">Habilitado</string>
+    <string name="disabled">Deshabilitado</string>
+    <string name="confirm">Confirmar</string>
+    <string name="unlimited">Unlimited</string>
+    <string name="no_connection">Sin conexión</string>
+    <string name="no_result_found">No result found</string>
+    <string name="connect">Connect</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="continuez">Continuar</string>
+
+    <string name="exit_msg">Pulse \"Atrás\" otra vez para salir</string>
+    <string name="error_metadata">Error cargando los datos. Inténtalo de nuevo</string>
+    <string name="search">Buscar</string>
+    <string name="no_write_access">No se puede escribir en esta carpeta. No hay acceso de escritura</string>
+    <string name="no_free_space">No hay suficiente espacio libre</string>
+    <string name="cache_folder_not_selected">No se ha elegido una carpeta para caché</string>
+    <string name="downloads_remove_msg">¿Estás seguro?</string>
+    <string name="finished">Finalizado</string>
+    <string name="paused">Pausado</string>
+    <string name="checking_data">Comprobando datos</string>
+    <string name="disable_wifi_message">Disable \"Use only Wi-Fi connection\" in Settings or activate your Wi-Fi connection</string>
+    <string name="device_storage">Almacenamiento del Dispositivo</string>
+    <string name="sdcard_storage">Almacenamiento SD</string>
+
+</resources>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.Popcorn" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@color/v3_background</item>
+        <item name="android:textViewStyle">@style/RobotoTextViewStyle</item>
+        <item name="buttonStyle">@style/RobotoButtonStyle</item>
+        <item name="colorControlNormal">#ffffff</item>
+        <item name="colorAccent">@color/v3_accent</item>
+        <item name="colorPrimary">#000000</item>
+
+        <item name="shareIconColor">@color/v3_accent</item>
+    </style>
+
+    <style name="RobotoTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">sans-serif</item>
+    </style>
+
+    <style name="RobotoButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">sans-serif</item>
+    </style>
+
+    <style name="Theme.Popcorn.NavigationView">
+        <item name="android:listDivider">@color/v3_navigation_list_divider</item>
+    </style>
+
+    <style name="Theme.Popcorn.Classic" parent="Theme.Popcorn">
+        <item name="colorAccent">#ffffff</item>
+        <!--<item name="searchViewStyle">@style/Widget.Popcorn.Classic.SearchView</item>-->
+        <!-- base -->
+        <item name="baseLabelColor">#ffffff</item>
+        <!-- toolbar -->
+        <item name="toolbar">@style/Widget.Popcorn.Classic.Toolbar</item>
+        <item name="toolbarTitle">@style/Widget.Popcorn.Classic.Toolbar.Title</item>
+        <item name="toolbarPopup">@style/Widget.Popcorn.Classic.Toolbar.Popup</item>
+        <!-- main -->
+        <item name="mainBackground">#313131</item>
+        <!-- video -->
+        <item name="videoBackground">@color/classic_video_background</item>
+        <item name="videoPosterShadowLand">@drawable/classic_video_poster_shadow_land</item>
+        <item name="videoPosterShadowPort">@drawable/classic_video_poster_shadow_port</item>
+        <!-- prepare watch -->
+        <item name="prepareWatchProgressBarStyle">@style/PrepareWatchProgressBarStyle</item>
+        <item name="prepareWatchStatusTextStyle">@style/PrepareWatchStatusText</item>
+    </style>
+
+    <style name="Theme.Popcorn.Player.Classic" parent="Theme.Player">
+        <item name="shareIconColor">@color/v3_accent</item>
+    </style>
+
+    <!-- Main -->
+
+    <style name="Theme.Popcorn.Main" parent="Theme.Popcorn">
+        <item name="android:windowTranslucentStatus" tools:targetApi="kitkat">true</item>
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+        <item name="searchViewStyle">@style/Widget.Popcorn.SearchView</item>
+    </style>
+
+    <!-- Details -->
+
+    <style name="Theme.Popcorn.Details" parent="Theme.Popcorn">
+        <item name="android:windowTranslucentStatus" tools:targetApi="kitkat">true</item>
+        <item name="videoBackground">@color/classic_video_background</item>
+        <item name="videoPosterShadowLand">@drawable/classic_video_poster_shadow_land</item>
+        <item name="videoPosterShadowPort">@drawable/classic_video_poster_shadow_port</item>
+        <item name="prepareWatchProgressBarStyle">@style/PrepareWatchProgressBarStyle</item>
+        <item name="prepareWatchStatusTextStyle">@style/PrepareWatchStatusText</item>
+    </style>
+
+    <!-- Downloads -->
+
+    <style name="Theme.Popcorn.Downloads" parent="Theme.Popcorn">
+
+    </style>
+
+    <style name="Theme.Popcorn.Downloads.ResumeButton" parent="Theme.Popcorn">
+        <item name="colorControlNormal">@color/v3_accent</item>
+    </style>
+
+    <!-- Vpn -->
+
+    <style name="Theme.Popcorn.Vpn" parent="Theme.Popcorn">
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay.Popcorn</item>
+    </style>
+
+    <!-- Settings -->
+
+    <style name="Theme.Popcorn.Settings" parent="Theme.Popcorn">
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay.Popcorn</item>
+    </style>
+
+    <!-- Preference -->
+
+    <style name="PreferenceThemeOverlay.Popcorn" parent="PreferenceThemeOverlay.v14.Material">
+        <item name="preferenceFragmentCompatStyle">@style/PreferenceFragment.Popcorn</item>
+        <item name="preferenceFragmentStyle">@style/PreferenceFragment.Popcorn</item>
+    </style>
+
+    <style name="PreferenceFragment.Popcorn" parent="PreferenceFragment.Material">
+        <item name="android:divider">@null</item>
+    </style>
+
+</resources>

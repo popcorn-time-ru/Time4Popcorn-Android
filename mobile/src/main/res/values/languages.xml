@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="lang_english">English</string>
+    <string name="lang_spanish">Español</string>
+    <string name="lang_dutch">Nederlands</string>
+    <string name="lang_brazilian_portuguese">Brazilian Portuguese</string>
+    <string name="lang_russian">Pусский</string>
+    <string name="lang_turkish">Türkçe</string>
+    <string name="lang_italian">Italiano</string>
+    <string name="lang_french">Français</string>
+</resources>

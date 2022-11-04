@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="16dp">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/v3_details_additional_delimiter" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="32dp"
+        android:gravity="center_vertical">
+
+        <ToggleButton
+            android:id="@+id/watched"
+            style="@style/Widget.AppCompat.ActionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="4dp"
+            android:drawableLeft="@drawable/ic_visibility_selector"
+            android:drawablePadding="0dp"
+            android:drawableStart="@drawable/ic_visibility_selector"
+            android:minHeight="0dp"
+            android:minWidth="0dp"
+            android:padding="4dp"
+            android:textOff="@null"
+            android:textOn="@null" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/imdb"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="4dp"
+            android:drawablePadding="8dp"
+            android:minHeight="0dp"
+            android:minWidth="0dp"
+            android:padding="8dp"
+            android:text="IMDb"
+            android:textAllCaps="false"
+            android:textColor="#bf000000"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            app:backgroundTint="#fff" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/trailer"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_play_trailer_wrapped"
+            android:drawablePadding="8dp"
+            android:minHeight="0dp"
+            android:minWidth="0dp"
+            android:text="@string/trailer"
+            android:textSize="12sp"
+            app:backgroundTint="#bf000000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/additional_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:textColor="#ffffff"
+            tools:text="Additional description" />
+
+        <TextView
+            android:id="@+id/additional_release_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:alpha="0.5"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:textColor="#ffffff"
+            tools:text="Release Date: 2017-05-30" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/selector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        tools:visibility="visible">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/v3_details_additional_delimiter" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp">
+
+            <FrameLayout
+                android:id="@+id/seasons_bkg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="?attr/colorAccent">
+
+                <se.popcorn_time.mobile.ui.widget.ItemSelectButton
+                    android:id="@+id/seasons"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_arrow_down_wrapped"
+                    android:drawablePadding="4dp"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="12dp"
+                    android:textStyle="bold"
+                    tools:text="season #1" />
+            </FrameLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/episodes"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="3dp"
+                android:background="#40ffffff"
+                android:orientation="horizontal"
+                app:layoutManager="android.support.v7.widget.LinearLayoutManager" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/additional_controls"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/v3_details_additional_delimiter" />
+
+        <se.popcorn_time.mobile.ui.widget.ItemSelectButton
+            android:id="@+id/subtitles"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_closed_caption_wrapped"
+            android:drawablePadding="32dp"
+            android:gravity="start|center_vertical"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:textColor="#ccffffff"
+            tools:text="@string/subtitles" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="72dp"
+            android:background="@color/v3_details_additional_delimiter" />
+
+        <se.popcorn_time.mobile.ui.widget.ItemSelectButton
+            android:id="@+id/dubbing"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_dubbing_wrapped"
+            android:drawablePadding="32dp"
+            android:gravity="start|center_vertical"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:textColor="#ccffffff"
+            tools:text="@string/dubbing" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="72dp"
+            android:background="@color/v3_details_additional_delimiter" />
+
+        <se.popcorn_time.mobile.ui.widget.ItemSelectButton
+            android:id="@+id/torrents"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_movie_wrapped"
+            android:drawablePadding="32dp"
+            android:gravity="start|center_vertical"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:textAllCaps="false"
+            android:textColor="#ccffffff"
+            tools:text="@string/torrents" />
+    </LinearLayout>
+
+</LinearLayout>

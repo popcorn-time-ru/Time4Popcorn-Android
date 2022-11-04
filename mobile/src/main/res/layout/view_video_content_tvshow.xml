@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/videoBackground"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:weightSum="8">
+
+    <ListView
+        android:id="@+id/video_seasons"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:choiceMode="singleChoice"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:listSelector="@android:color/transparent"
+        android:overScrollMode="never"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"/>
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="#555555"/>
+
+    <ListView
+        android:id="@+id/video_episodes"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="1dp"
+        android:listSelector="@android:color/transparent"
+        android:overScrollMode="never"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"/>
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="#555555"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:orientation="vertical"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+
+        <TextView
+            android:id="@+id/video_episode_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/tvshow_title_text"
+            tools:text="Title"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:overScrollMode="never">
+
+            <TextView
+                android:id="@+id/video_episode_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/tvshow_description_text"
+                tools:text="Description"/>
+        </ScrollView>
+
+        <se.popcorn_time.mobile.ui.widget.ItemSelectButton
+            android:id="@+id/video_subtitles"
+            style="@style/VideoItemSelectButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            tools:text="@string/subtitles"/>
+
+        <se.popcorn_time.mobile.ui.widget.ItemSelectButton
+            android:id="@+id/video_torrents"
+            style="@style/VideoItemSelectButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            tools:text="@string/torrents"/>
+
+        <Button
+            android:id="@+id/video_download_open"
+            style="@style/DownloadOpenButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/download_btn_selector"
+            tools:text="@string/download"/>
+
+        <Button
+            android:id="@+id/video_watchitnow"
+            style="@style/WatchButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="12dp"
+            android:minHeight="@dimen/tvshow_watch_height"
+            android:textSize="@dimen/tvshow_watch_text"
+            tools:text="@string/watch_it_now"/>
+    </LinearLayout>
+</LinearLayout>

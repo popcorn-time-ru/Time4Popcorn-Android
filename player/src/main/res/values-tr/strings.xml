@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="locked">Kilitli</string>
+    <string name="unlocked">Kilitsiz</string>
+    <string name="track_audio">Ses izi</string>
+    <string name="share">Pay</string>
+    <string name="brightness">Parlaklık</string>
+    <string name="volume">Ses Düzeyi</string>
+
+    <string name="subtitles">Altyazılar</string>
+    <string name="without_subtitle">Altyazısız</string>
+    <string name="custom_subtitle">Özel altyazı</string>
+    <string name="select_subtitle">Altyazı seç</string>
+
+    <string name="subtitle_settings">Altyazı ayarları</string>
+    <string name="subtitle_settings_language">Altyazı dili</string>
+    <string name="subtitle_settings_size">Yazı Boyutu</string>
+    <string name="subtitle_settings_shift">Altyazı zamanlama</string>
+
+    <!-- Subtitle font size -->
+    <string name="extra_small">Çok Küçük</string>
+    <string name="small">Küçük</string>
+    <string name="normal">Normal</string>
+    <string name="large">Büyük</string>
+    <string name="extra_large">Çok Büyük</string>
+
+    <string name="aspect_ratio">Aspect ratio</string>
+</resources>

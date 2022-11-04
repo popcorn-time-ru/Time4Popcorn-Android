@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- video grid -->
+    <dimen name="video_grid_width">130dp</dimen>
+    <dimen name="video_grid_height">195dp</dimen>
+    <dimen name="video_grid_name_text">18sp</dimen>
+    <dimen name="video_grid_year_text">15sp</dimen>
+    <!-- video -->
+    <dimen name="video_actors_text">17sp</dimen>
+    <dimen name="video_favorite_size">26dp</dimen>
+    <dimen name="video_trailer_size">35dp</dimen>
+    <dimen name="video_trailer_text">18sp</dimen>
+    <dimen name="video_spinner_height">32dp</dimen>
+    <dimen name="video_spinner_text">16sp</dimen>
+    <!--<dimen name="video_download_height">32dp</dimen>-->
+    <dimen name="video_download_text">22sp</dimen>
+    <!-- movie -->
+    <dimen name="movie_title_text">30sp</dimen>
+    <dimen name="movie_description_text">16sp</dimen>
+    <dimen name="movie_watch_height">65dp</dimen>
+    <dimen name="movie_watch_text">30sp</dimen>
+    <!-- tvshow -->
+    <dimen name="tvshow_title_text">24sp</dimen>
+    <dimen name="tvshow_description_text">15sp</dimen>
+    <dimen name="tvshow_watch_height">57dp</dimen>
+    <dimen name="tvshow_watch_text">24sp</dimen>
+    <dimen name="tvshow_season_item_text">20sp</dimen>
+    <dimen name="tvshow_season_padding">5dp</dimen>
+    <dimen name="tvshow_episode_item_text">16sp</dimen>
+    <dimen name="tvshow_episode_padding">15dp</dimen>
+
+</resources>

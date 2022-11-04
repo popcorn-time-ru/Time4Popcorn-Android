@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <drawable name="poster">@drawable/poster_320_480</drawable>
+    <drawable name="ic_details_play">@drawable/ic_play</drawable>
+
+</resources>

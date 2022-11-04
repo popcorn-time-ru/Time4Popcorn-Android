@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Widget.Player.Toolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="android:minHeight">0dp</item>
+        <item name="android:background">@color/overlay</item>
+        <item name="titleTextAppearance">@style/Widget.Player.Toolbar.TitleTextAppearance</item>
+    </style>
+
+    <style name="Widget.Player.Toolbar.TitleTextAppearance" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="Widget"/>
+
+    <style name="Widget.Player" parent="Widget"/>
+
+    <style name="Widget.Player.Info" parent="Widget.Player">
+        <item name="android:padding">10dp</item>
+        <item name="android:background">@drawable/info_bkg</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="Widget.Player.Time" parent="Widget.Player">
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="Widget.Player.SeekBar" parent="Widget.Player">
+        <item name="android:thumb">@null</item>
+        <item name="android:thumbOffset">0dp</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:minHeight">14dp</item>
+        <item name="android:progressDrawable">@drawable/seek_bar</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <style name="Widget.Player.OverlayButton" parent="Widget.Player">
+        <item name="android:background">@drawable/overlay_button_bkg</item>
+        <item name="android:padding">0dp</item>
+    </style>
+
+    <style name="Widget.Player.Buffering.ProgressBar" parent="Widget.AppCompat.ProgressBar">
+        <item name="android:minHeight">90dp</item>
+        <item name="android:maxHeight">90dp</item>
+        <item name="android:minWidth">90dp</item>
+        <item name="android:maxWidth">90dp</item>
+    </style>
+
+    <style name="Widget.Player.Buffering.Percent" parent="Widget.Player">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
+</resources>

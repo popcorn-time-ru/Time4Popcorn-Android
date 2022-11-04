@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <PreferenceCategory android:title="@string/interface_">
+
+        <ListPreference
+            android:key="language"
+            android:persistent="false"
+            android:title="@string/language"
+            tools:summary="@string/lang_english" />
+
+        <ListPreference
+            android:key="start_page"
+            android:persistent="false"
+            android:title="@string/start_page"
+            tools:summary="@string/favorites" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="category_player"
+        android:title="@string/player">
+
+        <ListPreference
+            android:key="player_hardware_acceleration"
+            android:persistent="false"
+            android:title="@string/hardware_acceleration"
+            tools:summary="@string/hardware_acceleration_automatic" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="category_subtitles"
+        android:title="@string/subtitles">
+
+        <ListPreference
+            android:key="subtitles_language"
+            android:persistent="false"
+            android:title="@string/default_subtitle"
+            tools:summary="@string/without_subtitle" />
+
+        <ListPreference
+            android:key="subtitles_font_size"
+            android:persistent="false"
+            android:title="@string/font_size"
+            tools:summary="@string/normal" />
+
+        <ListPreference
+            android:key="subtitles_font_color"
+            android:persistent="false"
+            android:title="@string/font_color"
+            tools:summary="@string/white" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="category_downloads"
+        android:title="@string/downloads">
+
+        <CheckBoxPreference
+            android:key="downloads_wifi_only"
+            android:persistent="false"
+            android:summaryOff="@string/disabled"
+            android:summaryOn="@string/enabled"
+            android:title="@string/use_only_wifi" />
+
+        <se.popcorn_time.NumberPickerPreference
+            android:key="downloads_connections_limit"
+            android:persistent="false"
+            android:title="@string/connections_limit"
+            tools:summary="100" />
+
+        <ListPreference
+            android:key="downloads_download_speed"
+            android:persistent="false"
+            android:title="@string/maximum_download_speed"
+            tools:summary="100 KB/s" />
+
+        <ListPreference
+            android:key="downloads_upload_speed"
+            android:persistent="false"
+            android:title="@string/maximum_upload_speed"
+            tools:summary="100 KB/s" />
+
+        <se.popcorn_time.FolderChooserPreference
+            android:key="downloads_cache_folder"
+            android:persistent="false"
+            android:title="@string/cache_folder"
+            tools:summary="@string/cache_folder_not_selected" />
+
+        <CheckBoxPreference
+            android:key="downloads_clear_cache_folder"
+            android:persistent="false"
+            android:summaryOff="@string/disabled"
+            android:summaryOn="@string/enabled"
+            android:title="@string/clear_cache_folder_on_exit" />
+
+        <CheckBoxPreference
+            android:key="downloads_check_vpn"
+            android:persistent="false"
+            android:summary="@string/check_connection_description"
+            android:title="@string/check_connection" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/about">
+
+        <se.popcorn_time.ActionPreference
+            android:key="about_visit_site"
+            android:persistent="false"
+            android:title="@string/visit_site"
+            tools:summary="http://simple.com" />
+
+        <se.popcorn_time.ActionPreference
+            android:key="about_visit_forum"
+            android:persistent="false"
+            android:title="@string/visit_forum"
+            tools:summary="http://simple.com" />
+
+        <Preference
+            android:key="about_version"
+            android:persistent="false"
+            android:selectable="false"
+            android:title="@string/version"
+            tools:summary="1.0.1" />
+    </PreferenceCategory>
+</PreferenceScreen>

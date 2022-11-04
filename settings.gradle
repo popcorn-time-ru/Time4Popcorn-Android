@@ -1,0 +1,2 @@
+include ':mobile', ':base', ':vlc', ':player', ':api-debug', ':Connect-SDK-Android', ":torrent"
+project(':torrent').projectDir = new File('torrent/torrent')

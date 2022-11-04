@@ -1,0 +1,126 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="se.popcorn_time.mobile"
+    android:installLocation="auto">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+
+    <uses-feature
+        android:name="android.hardware.wifi"
+        android:required="true" />
+
+    <application
+        android:name="se.popcorn_time.mobile.PopcornApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/application_name"
+        android:largeHeap="true"
+        android:logo="@mipmap/ic_launcher"
+        android:theme="@style/Theme.Popcorn">
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <meta-data
+            android:name="com.samsung.android.icon_container.has_icon_container"
+            android:value="true" />
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_notify_mascot" />
+
+        <activity
+            android:name="se.popcorn_time.mobile.ui.MainActivity"
+            android:configChanges="orientation|screenSize|locale"
+            android:theme="@style/Theme.Popcorn.Main"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="se.popcorn_time.mobile.ui.VLCPlayerActivity"
+            android:configChanges="orientation|screenSize|locale"
+            android:launchMode="singleTop" />
+
+        <activity
+            android:name="se.popcorn_time.mobile.ui.DetailsActivity"
+            android:theme="@style/Theme.Popcorn.Details" />
+
+        <activity
+            android:name="se.popcorn_time.mobile.ui.TrailerActivity"
+            android:configChanges="orientation|screenSize|screenLayout"
+            android:theme="@style/Theme.Popcorn" />
+
+        <activity
+            android:name="se.popcorn_time.mobile.ui.FavoritesActivity"
+            android:theme="@style/Theme.Popcorn" />
+
+        <activity
+            android:name="se.popcorn_time.mobile.ui.DownloadsActivity"
+            android:theme="@style/Theme.Popcorn.Downloads" />
+
+        <activity
+            android:name="se.popcorn_time.mobile.ui.SettingsActivity"
+            android:theme="@style/Theme.Popcorn.Settings" />
+
+        <activity
+            android:name="se.popcorn_time.mobile.ui.FolderChooserActivity"
+            android:configChanges="orientation|screenSize|locale" />
+
+        <activity
+            android:name="se.popcorn_time.mobile.ui.VpnActivity"
+            android:theme="@style/Theme.Popcorn.Vpn" />
+
+        <activity
+            android:name="se.popcorn_time.mobile.ui.WebActivity"
+            android:configChanges="screenSize|locale"
+            android:screenOrientation="sensorPortrait"
+            android:windowSoftInputMode="adjustResize" />
+
+        <service android:name="com.player.ConnectableNotificationService" />
+        <service android:name="com.player.cast.WebServerService" />
+        <service android:name="se.popcorn_time.base.torrent.TorrentService" />
+        <service android:name="se.popcorn_time.model.messaging.PopcornMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name=".InstallReferrerReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name="se.popcorn_time.base.receiver.ConnectivityReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <receiver
+            android:name="se.popcorn_time.base.api.AppApiReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="se.popcorn_time.api.action.VPN" />
+            </intent-filter>
+        </receiver>
+
+        <provider
+            android:name="se.popcorn_time.base.database.DBProvider"
+            android:authorities="dp.ws.popcorntime"
+            android:exported="false"
+            android:label="@string/application_name" />
+    </application>
+</manifest>

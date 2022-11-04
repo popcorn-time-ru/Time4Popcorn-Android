@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/episode_name"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/popcorn_episode_selector"
+    android:gravity="center_horizontal"
+    android:paddingBottom="@dimen/tvshow_episode_padding"
+    android:paddingTop="@dimen/tvshow_episode_padding"
+    android:textColor="#888888"
+    android:textSize="@dimen/tvshow_episode_item_text" />

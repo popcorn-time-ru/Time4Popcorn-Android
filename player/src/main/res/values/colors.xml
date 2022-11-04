@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="window_background">#000000</color>
+    <color name="overlay">#88757575</color>
+    <color name="overlay_button_pressed">#1565C0</color>
+</resources>
